@@ -1,13 +1,88 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+*{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.movie-card{
+  display: flex;
+  flex-direction: row;
+  height: auto;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.movie-card-left{
+  width: 20%;
+  margin-right: 10px;
+}
+
+.movie-card-left img{
+  height: 60%;
+  width: 100%;
+}
+
+.movie-card-right{
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+}
+
+.movie-card-title{
+  height: 50px;
+}
+
+.movie-card-title h2{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.movie-card-plot p{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.movie-card-footer{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 50px;
+}
+
+.movie-card-imdb{
+  display: flex;
+  flex-direction: row;
+}
+.imdb-img{
+  /* width: auto; */
+  padding-top: 10px;
+  padding-bottom: 2px;
+}
+
+.movie-card-imdb p{
+  padding-left: 5px;
+  padding-top: 5px;
+}
+
+.movie-card-stars{
+  display: flex;
+  flex-direction: row;
+}
+
+.movie-card-stars h3{
+  margin: auto;
+  padding-bottom: 5px;
+}
+
+.minus-img{
+  height: 25%;
+  width: auto;
+  padding-top: 17px;
+  padding-bottom: 8px;
+  padding-right: 5px;
+}
+.star-img{
+  height: 50%;
+  width: auto;
+  padding-top: 10px;
+  padding-bottom: 8px;
+}
+.plus-img{
+  height: 25%;
+  width: auto;
+  padding-top: 17px;
+  padding-bottom: 8px;
+  padding-left: 5px;
 }
