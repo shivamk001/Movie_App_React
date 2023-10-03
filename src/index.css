@@ -1,15 +1,31 @@
 *{
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  
+}
+
+.movie-list{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  background-color: lightgray;
+  margin: 0;
+  height: auto;
 }
 .movie-card{
   display: flex;
   flex-direction: row;
   height: auto;
+  width: 50%;
+  background-color: white;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 .movie-card-left{
   width: 20%;
   margin-right: 10px;
+  background-color: white;
 }
 
 .movie-card-left img{
@@ -21,10 +37,12 @@
   width: 80%;
   display: flex;
   flex-direction: column;
+  background-color: white;
 }
 
 .movie-card-title{
   height: 50px;
+  background-color: white;
 }
 
 .movie-card-title h2{
@@ -39,11 +57,14 @@
   flex-direction: row;
   justify-content: space-between;
   height: 50px;
+  background-color: white;
+  margin: 10px;
 }
 
 .movie-card-imdb{
   display: flex;
   flex-direction: row;
+  background-color: white;
 }
 .imdb-img{
   /* width: auto; */
@@ -59,6 +80,7 @@
 .movie-card-stars{
   display: flex;
   flex-direction: row;
+  background-color: white;
 }
 
 .movie-card-stars h3{
@@ -86,3 +108,39 @@
   padding-bottom: 8px;
   padding-left: 5px;
 }
+
+.movie-card-btns{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.movie-card-unfav-btn{
+  background-color: red;
+  color: white;
+  border: none;
+  padding: 4cqmax;
+
+}
+
+.movie-card-fav-btn{
+  background-color: green;
+  color: white;
+  border: none;
+  padding: 4px;
+}
+
+.movie-card-uncart-btn{
+  background-color: red;
+  color: white;
+  border: none;
+  padding: 4px;
+}
+
+.movie-card-cart-btn{
+  background-color: green;
+  color: white;
+  border: none;
+  padding: 4px;
+}
+
